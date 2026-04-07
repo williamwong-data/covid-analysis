@@ -47,7 +47,7 @@ Singapore: Total COVID-19 Cases
 
 Singapore: Daily COVID-19 New Cases (Raw)
 ### Singapore: Daily New Cases (Raw)
-![Singapore Daily Cases](visuals/sg_daily_cases_raw.png
+![Singapore Daily Cases](visuals/sg_daily_cases_raw.png)
 
 Singapore: Daily COVID-19 New Cases (Smoothed)
 ### Singapore: Daily New Cases (Smoothed)
