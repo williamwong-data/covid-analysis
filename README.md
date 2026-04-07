@@ -75,7 +75,7 @@ Skills Demonstrated
 
 How To Run
 
-## How to Run
+## How To Run
 
 ```
 git clone https://github.com/williamwong-data/covid-analysis.git
