@@ -75,9 +75,13 @@ Skills Demonstrated
 
 How To Run
 
+## How to Run
+
+```
 git clone https://github.com/williamwong-data/covid-analysis.git
 cd covid-analysis
 jupyter notebook
+```
 
 Project Structure
 
