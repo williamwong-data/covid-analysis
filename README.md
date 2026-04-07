@@ -81,12 +81,16 @@ jupyter notebook
 
 Project Structure
 
+## Project Structure
+
+'''
 covid-analysis/
 ├── notebooks/
 ├── visuals/
 ├── sql/
 ├── README.md
 └── .gitignore
+'''
 
 Future Improvements
 
