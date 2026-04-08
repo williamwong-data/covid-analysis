@@ -98,6 +98,7 @@ covid-analysis/
 ## Data Source
 
 *Our World in Data — COVID-19 Dataset. Accessed 2024.*
+
 *https://ourworldindata.org/covid-cases*
 
 ## Author
