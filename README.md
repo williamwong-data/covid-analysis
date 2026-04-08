@@ -8,30 +8,29 @@ In addition to univariate analysis, a comparative visualization is included to p
 
 ## Problem Statement
 
-The objective of this analysis is to:
-	- Understand cumulative growth of COVID-19 cases over time
-	- Characterize daily case variability and identify trends
-	- Detect wave-like patterns and temporal shifts
-	- Provide contextual comparison across regions
-  
+- Understand cumulative growth of COVID-19 cases over time
+- Characterize daily case variability and identify trends
+- Detect wave-like patterns and temporal shifts
+- Provide contextual comparison across regions
+
 ## Approach
 
-1. **Data Preparation**
-    - Loaded time-series dataset
-	- Standardized date formatting
-	- Handled missing and inconsistent values
-	- Derived cumulative and daily case metrics
+### 1. Data Preparation
+- Loaded time-series dataset
+- Standardized date formatting
+- Handled missing and inconsistent values
+- Derived cumulative and daily case metrics
 
-2. **Exploratory Data Analysis**
-    - Analysed cumulative case progression
-	- Examined daily fluctuations and volatility
-	- Identified peaks, trends, and inflection points
+### 2. Exploratory Data Analysis
+- Analysed cumulative case progression
+- Examined daily fluctuations and volatility
+- Identified peaks, trends, and inflection points
 
-3. **Visualization**
-    - Generated time-series plots for total and daily cases
-	- Applied smoothing techniques to reduce noise
-	- Created comparative visualization for contextual reference
-
+### 3. Visualization
+- Generated time-series plots for total and daily cases
+- Applied smoothing techniques to reduce noise
+- Created comparative visualization for contextual reference
+  
 ## Key Findings
 
     - Singapore’s cumulative COVID-19 cases reached approximately **3 million by end-2024**, with the most rapid growth observed between mid-2022 and early 2023
