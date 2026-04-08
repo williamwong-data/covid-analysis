@@ -8,7 +8,7 @@ In addition to univariate analysis, a comparative visualization is included to p
 
 ## Problem Statement
 
-The objective of this analysis is to:
+The objective of this analysis is to
 	•	Understand cumulative growth of COVID-19 cases over time
 	•	Characterize daily case variability and identify trends
 	•	Detect wave-like patterns and temporal shifts
