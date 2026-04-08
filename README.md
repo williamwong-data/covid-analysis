@@ -2,9 +2,9 @@
 
 ## Executive Summary
 
-This project performs a time-series analysis of COVID-19 case data in Singapore, with the objective of characterizing cumulative growth, daily incidence patterns, and underlying temporal trends. The analysis applies data cleaning, transformation, and visualization techniques to extract interpretable insights from raw case data.
+This project analyzes COVID-19 case data in Singapore using time-series methods to understand how the outbreak evolved over time. It examines cumulative growth, daily case patterns, and broader changes over time by applying data cleaning, transformation, and visualization techniques to turn raw data into meaningful insights.
 
-In addition to univariate analysis, a comparative visualization is included to provide contextual benchmarking against the USA, enabling relative interpretation of scale and variability in case trajectories.
+In addition to examining Singapore on its own, the project also includes a comparative visualization with the USA. This provides context for interpreting differences in scale and variability between the two countries’ case patterns.
 
 ## Problem Statement
 
