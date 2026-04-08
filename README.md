@@ -4,7 +4,7 @@
 
 This project performs a time-series analysis of COVID-19 case data in Singapore, with the objective of characterizing cumulative growth, daily incidence patterns, and underlying temporal trends. The analysis applies data cleaning, transformation, and visualization techniques to extract interpretable insights from raw case data.
 
-In addition to univariate analysis, a comparative visualization is included to provide contextual benchmarking against another country, enabling relative interpretation of scale and variability in case trajectories.
+In addition to univariate analysis, a comparative visualization is included to provide contextual benchmarking against the USA, enabling relative interpretation of scale and variability in case trajectories.
 
 ## Problem Statement
 
@@ -38,19 +38,33 @@ In addition to univariate analysis, a comparative visualization is included to p
 - The 7-day smoothed trend reveals **at least five distinct infection waves** between 2020 and 2024, with wave magnitude increasing initially before stabilizing post-2023
 - Singapore’s total case count (~3M) represents **approximately 3% of the USA’s total (~105M)**, broadly consistent with population differences while showing comparable wave dynamics
 
+  ## Why This Analysis Matters
+
+- Helps interpret noisy real-world epidemiological data  
+- Demonstrates importance of smoothing in time-series analysis  
+- Provides context for understanding infection wave dynamics 
+
   ## Key Visualisations
 
 ### Singapore: Total COVID-19 Cases
 ![Singapore Total Cases](visuals/sg_total_cases.png)
 
+Total cases rise steadily over time, with the growth gradually slowing down after the major waves.
+
 ### Singapore: Daily New Cases (Raw)
 ![Singapore Daily Cases](visuals/sg_daily_cases_raw.png)
+
+Daily cases tend to fluctuate, with noticeable spikes and drops that reflect short-term outbreaks rather than a smooth trend.
 
 ### Singapore: Daily New Cases (Smoothed)
 ![Singapore Smoothed Daily Cases](visuals/sg_daily_cases_smoothed.png)
 
+The smoothed chart clearly shows the overall direction of the data, making the major waves and turning points much easier to identify.
+
 ### Country Comparison (Trend Reference)
 ![Comparison](visuals/comparison.png)
+
+The comparison chart between Singapore and the USA highlights how trends differ across the two countries over time.
 
 ## Tools & Technologies
 
@@ -93,6 +107,12 @@ covid-analysis/
 - Incorporate per-capita normalization for more meaningful comparisons
 - Build interactive dashboards using Plotly or Tableau
 - Automate data ingestion and scheduled update
+
+  ## Limitations
+
+- Daily case data may reflect reporting delays or inconsistencies  
+- Cross-country comparison is not normalized by population  
+- Analysis is based on reported cases and may not reflect actual infection rates
 
 ## Data Source
 
