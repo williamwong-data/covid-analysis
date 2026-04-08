@@ -34,10 +34,10 @@ The objective of this analysis is to:
 
 ## Key Findings
 
-    •	Singapore’s cumulative COVID-19 cases reached approximately **3 million by end-2024**, with the most rapid growth observed between mid-2022 and early 2023
-	•	Raw daily case data exhibits significant volatility, with a peak **exceeding 130,000 cases in October 2022**, obscuring underlying trends without smoothing
-	•	The 7-day smoothed trend reveals **at least five distinct infection waves** between 2020 and 2024, with wave magnitude increasing initially before stabilizing post-2023
-	•	Singapore’s total case count (~3M) represents **approximately 3% of the USA’s total (~105M)**, broadly consistent with population differences while showing comparable wave dynamics
+    - Singapore’s cumulative COVID-19 cases reached approximately **3 million by end-2024**, with the most rapid growth observed between mid-2022 and early 2023
+	- Raw daily case data exhibits significant volatility, with a peak **exceeding 130,000 cases in October 2022**, obscuring underlying trends without smoothing
+	- The 7-day smoothed trend reveals **at least five distinct infection waves** between 2020 and 2024, with wave magnitude increasing initially before stabilizing post-2023
+	- Singapore’s total case count (~3M) represents **approximately 3% of the USA’s total (~105M)**, broadly consistent with population differences while showing comparable wave dynamics
 
   ## Key Visualisations
 
@@ -55,19 +55,19 @@ The objective of this analysis is to:
 
 ## Tools & Technologies
 
-	•	Python
-	•	Pandas
-	•	Matplotlib
-	•	Jupyter Notebook
+	- Python
+	- Pandas
+	- Matplotlib
+	- Jupyter Notebook
 
 ## Skills Demonstrated
 
-	•	Time-series data analysis
-	•	Data cleaning and preprocessing
-	•	Feature derivation (cumulative vs daily metrics)
-	•	Data visualization and storytelling
-	•	Comparative analysis across datasets
-	•	Interpretation of noisy real-world data
+	- Time-series data analysis
+	- Data cleaning and preprocessing
+	- Feature derivation (cumulative vs daily metrics)
+	- Data visualization and storytelling
+	- Comparative analysis across datasets
+	- Interpretation of noisy real-world data
 
 ## How To Run
 
@@ -90,10 +90,10 @@ covid-analysis/
 
 ## Future Improvements
 
-	•	Extend analysis to additional countries for broader comparison
-	•	Incorporate per-capita normalization for more meaningful comparisons
-	•	Build interactive dashboards using Plotly or Tableau
-	•	Automate data ingestion and scheduled update
+	- Extend analysis to additional countries for broader comparison
+	- Incorporate per-capita normalization for more meaningful comparisons
+	- Build interactive dashboards using Plotly or Tableau
+	- Automate data ingestion and scheduled update
 
 ## Data Source
 
