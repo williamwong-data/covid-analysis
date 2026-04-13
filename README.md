@@ -1,17 +1,17 @@
 # COVID-19 Data Analysis (Singapore with Comparative Reference)
 
-## Executive Summary
-
-This project analyzes COVID-19 case data in Singapore using time-series methods to understand how the outbreak evolved over time. It examines cumulative growth, daily case patterns, and broader changes over time by applying data cleaning, transformation, and visualization techniques to turn raw data into meaningful insights.
-
-In addition to examining Singapore on its own, the project also includes a comparative visualization with the USA. This provides context for interpreting differences in scale and variability between the two countries’ case patterns.
+The analysis includes:
+- Total case trends over time
+- Daily infection patterns
+- 7-day smoothed trends for clearer insights
+- Cross-country comparison to provide context
 
 ## Problem Statement
 
-- Understand cumulative growth of COVID-19 cases over time
-- Characterize daily case variability and identify trends
-- Detect wave-like patterns and temporal shifts
-- Provide contextual comparison across regions
+- Understand how COVID-19 cases grew over time.
+- Examine daily case changes to identify patterns and fluctuations.
+- Detect periods of increase and decline (waves) during the pandemic.
+- Compare Singapore with the United States to better understand differences in trends and scale.
 
 ## Approach
 
